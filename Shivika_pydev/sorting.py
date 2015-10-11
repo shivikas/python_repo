@@ -50,3 +50,4 @@ print score_list
 avg = getAvg(score_list)
 print 'Average score of students is :', avg
 getGrade(score_list)
+print "Done!"
