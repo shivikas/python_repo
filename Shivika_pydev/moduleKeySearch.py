@@ -40,7 +40,7 @@ class ConfParser(object):
     
     def get_section_data(self,section):
         return self.__config_dict.get(section,None)
-    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
     def get_config_data(self,section,key):
         if self.__config_dict.has_key(section) and self.__config_dict[section].has_key(key):
             return self.__config_dict[section].get(key,None)
